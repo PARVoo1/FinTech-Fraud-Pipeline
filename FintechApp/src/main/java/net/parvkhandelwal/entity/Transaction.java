@@ -19,13 +19,12 @@ public class Transaction {
 
     private String userId;
 
-    @NotBlank
+    @NotBlank(message = "Account ID cannot be blank")
     private String accountId;
 
     @NonNull
     private Double amount;
 
-    @NotBlank
     private String locationIp;
 
     private String riskStatus;

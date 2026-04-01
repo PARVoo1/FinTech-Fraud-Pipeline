@@ -30,7 +30,7 @@ public class TransactionService {
     private static final ObjectMapper objectMapper = new ObjectMapper().registerModule(new JavaTimeModule());
     private static final String TOPIC = "fraud-detection-queue";
 
-    public Transaction processTransaction(Transaction transaction){
+    public Transaction processTransaction(Transaction transaction,String userIp){
 
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String name = authentication.getName();
@@ -38,6 +38,7 @@ public class TransactionService {
         transaction.setTimestamp(LocalDateTime.now());
         transaction.setRiskStatus("pending");
         transaction.setUserId(userId);
+        transaction.setLocationIp(userIp);
 
         Transaction savedTransaction = transactionRepository.save(transaction);
 

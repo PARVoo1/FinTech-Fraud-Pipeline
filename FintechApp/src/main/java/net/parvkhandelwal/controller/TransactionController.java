@@ -1,6 +1,8 @@
 package net.parvkhandelwal.controller;
 
 
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import net.parvkhandelwal.entity.Transaction;
 import net.parvkhandelwal.service.TransactionService;
@@ -15,9 +17,11 @@ import org.springframework.web.bind.annotation.*;
 public class TransactionController {
     private final TransactionService transactionService;
     @PostMapping
-    public ResponseEntity<Transaction> createTransaction(@RequestBody Transaction transaction) {
+    public ResponseEntity<Transaction> createTransaction(@RequestBody Transaction transaction, HttpServletRequest request) {
+
+        String userIp = request.getRemoteAddr();
         try{
-            Transaction processedTransaction = transactionService.processTransaction(transaction);
+            Transaction processedTransaction = transactionService.processTransaction(transaction,userIp);
             return new ResponseEntity<>(processedTransaction,HttpStatus.CREATED);
         }catch(Exception e){
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
