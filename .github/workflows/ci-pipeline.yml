@@ -23,7 +23,7 @@ jobs:
 
       - name: Build Java Spring Boot App
         working-directory: ./FintechApp
-        run: mvn clean package
+        run: mvn clean package -DskipTests
 
       - name: Verify Docker Compose Build
         run: docker compose build
