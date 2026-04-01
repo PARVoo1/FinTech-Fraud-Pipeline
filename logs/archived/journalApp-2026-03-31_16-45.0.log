@@ -1,0 +1,274 @@
+16:45:00:139[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:00:144[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:00:144[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:01:178[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:01:180[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:01:180[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:02:350[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:02:350[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:02:350[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:03:380[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:03:380[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:03:380[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:04:547[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:04:548[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:04:548[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:05:777[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:05:777[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:05:778[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:06:947[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:06:947[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:06:947[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:08:132[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:08:132[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:08:133[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:09:254[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:09:254[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:09:254[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:10:416[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:10:416[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:10:416[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:11:513[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:11:514[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:11:514[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:12:503[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:12:503[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:12:503[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:13:358[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:13:358[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:13:358[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:14:521[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:14:523[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:14:523[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:15:690[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:15:690[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:15:690[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:16:928[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:16:928[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:16:928[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:18:144[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:18:144[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:18:144[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:19:092[http-nio-8081-exec-5] ERROR n.p.controller.PublicController - Exception occurred while createAuthenticationToken 
+org.springframework.security.authentication.BadCredentialsException: Bad credentials
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:141)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at net.parvkhandelwal.controller.PublicController.login(PublicController.java:58)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at net.parvkhandelwal.filter.JwtFilter.doFilterInternal(JwtFilter.java:44)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+16:45:19:248[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:19:248[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:19:249[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:20:228[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:20:228[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:20:228[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:21:332[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:21:332[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:21:332[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:22:566[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:22:566[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:22:566[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:23:717[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:23:717[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:23:717[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:24:942[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:24:943[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:24:943[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:25:856[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:25:856[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:25:857[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:27:022[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:27:022[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:27:022[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:27:966[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:27:967[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:27:967[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:28:955[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:28:956[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:28:956[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:30:116[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:30:116[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:30:117[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:31:214[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:31:215[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:31:215[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:32:380[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:32:381[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:32:381[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:33:477[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:33:478[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:33:478[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:34:649[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:34:649[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:34:649[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:35:812[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:35:812[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:35:813[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:36:792[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:36:792[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:36:792[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:37:728[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:37:728[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:37:728[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:38:645[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:38:645[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:38:645[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:39:628[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:39:628[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:39:628[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:40:862[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:40:862[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:40:862[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:41:976[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:41:977[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:41:977[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:43:176[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:43:176[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:43:176[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:44:224[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:44:224[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:44:224[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:45:450[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:45:450[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:45:450[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:46:309[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:46:311[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:46:311[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:47:290[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:47:290[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:47:290[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:48:131[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:48:131[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:48:131[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:48:987[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:48:987[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:48:987[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:50:031[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:50:031[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:50:031[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:51:011[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:51:012[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:51:012[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:51:996[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:51:996[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:51:996[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:52:935[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:52:935[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:52:935[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:54:040[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:54:040[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:54:040[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:54:878[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:54:878[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:54:878[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:56:034[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:56:034[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:56:034[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:57:096[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:57:096[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:57:096[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:58:110[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:58:110[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:58:110[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected
+16:45:59:260[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Node -1 disconnected.
+16:45:59:260[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Connection to node -1 (/127.0.0.1:9092) could not be established. Broker may not be available.
+16:45:59:260[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-fintech-group-1, groupId=fintech-group] Bootstrap broker 127.0.0.1:9092 (id: -1 rack: null) disconnected

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Transaction Dashboard</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            width: 450px;
+            text-align: center;
+        }
+        input {
+            width: 90%;
+            padding: 12px;
+            margin: 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+            width: 100%;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .status-card {
+            margin-top: 25px;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: #e9ecef;
+            color: #495057;
+            border: 2px dashed #ced4da;
+            transition: all 0.3s ease;
+        }
+
+        /* The CSS classes that will be applied dynamically by Javascript */
+        .status-APPROVED { background-color: #d4edda; color: #155724; border: 2px solid #c3e6cb; }
+        .status-REJECTED { background-color: #f8d7da; color: #721c24; border: 2px solid #f5c6cb; }
+        .status-PENDING { background-color: #fff3cd; color: #856404; border: 2px solid #ffeeba; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Live FinTech Dashboard</h2>
+    <p>Enter your MongoDB User ID to tune into your private transaction channel.</p>
+
+    <input type="text" id="userIdInput" placeholder="Paste your User ID here...">
+    <button onclick="connectToBackend()">Connect to Server</button>
+
+    <div id="statusDisplay" class="status-card">
+        Status: Disconnected
+    </div>
+</div>
+
+<script>
+    let stompClient = null;
+
+    function connectToBackend() {
+        const userId = document.getElementById('userIdInput').value.trim();
+        if (!userId) {
+            alert("Please enter a valid User ID!");
+            return;
+        }
+
+        const statusDisplay = document.getElementById('statusDisplay');
+        statusDisplay.innerText = "Connecting to server...";
+
+        // 1. Establish the connection to the URL you configured in your Java config class
+        const socket = new SockJS('http://localhost:8081/ws-live');
+        stompClient = Stomp.over(socket);
+
+        // Optional: This hides the massive block of debug text in your browser console
+        stompClient.debug = null;
+
+        // 2. Attempt the handshake
+        stompClient.connect({}, function (frame) {
+            statusDisplay.innerText = "Connected! Waiting for transactions...";
+            statusDisplay.className = "status-card"; // Reset the background color
+
+            // 3. Tune the radio dial to the specific user's channel
+            const privateChannel = '/topic/transactions/' + userId;
+
+            stompClient.subscribe(privateChannel, function (message) {
+
+                // 4. This block triggers the exact millisecond the Java Megaphone shouts
+                const transaction = JSON.parse(message.body);
+
+                // Update the text to show the amount and status
+                statusDisplay.innerText = `₹${transaction.amount} \n Status: ${transaction.riskStatus}`;
+
+                // Change the color of the box dynamically based on the word
+                if (transaction.riskStatus === 'APPROVED') {
+                    statusDisplay.className = "status-card status-APPROVED";
+                } else if (transaction.riskStatus === 'REJECTED' || transaction.riskStatus === 'FAILED_SYSTEM_ERROR') {
+                    statusDisplay.className = "status-card status-REJECTED";
+                } else {
+                    statusDisplay.className = "status-card status-PENDING";
+                }
+            });
+
+        }, function(error) {
+            // If Java is turned off or crashes, this catches the error
+            statusDisplay.innerText = "Connection lost or failed!";
+            statusDisplay.className = "status-card status-REJECTED";
+        });
+    }
+</script>
+</body>
+</html>

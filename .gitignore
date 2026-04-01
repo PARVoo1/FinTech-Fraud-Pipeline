@@ -1,0 +1,15 @@
+# Security
+.env
+
+# Java/Maven build files
+target/
+*.jar
+
+# Python build files
+__pycache__/
+*.pyc
+
+# IDEs
+.idea/
+*.iml
+.vscode/
