@@ -15,8 +15,7 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Journal APP")
-                        .description("API documentation for the Journal application")
+                        .title("Fintech-Fraud-Pipeline APP")
                 )
                 .components(new Components()
                         .addSecuritySchemes("bearerAuth", new SecurityScheme()
