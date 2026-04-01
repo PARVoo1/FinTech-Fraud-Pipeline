@@ -22,7 +22,7 @@ jobs:
           cache: 'maven'
 
       - name: Build Java Spring Boot App
-        working-directory: ./fintechApp
+        working-directory: ./FintechApp
         run: mvn clean package
 
       - name: Verify Docker Compose Build
