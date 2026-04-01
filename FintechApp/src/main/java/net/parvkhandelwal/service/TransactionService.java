@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import net.parvkhandelwal.dto.TransactionDTO;
 import net.parvkhandelwal.entity.Transaction;
 import net.parvkhandelwal.repository.TransactionRepository;
 import net.parvkhandelwal.repository.UserRepository;
@@ -30,22 +31,26 @@ public class TransactionService {
     private static final ObjectMapper objectMapper = new ObjectMapper().registerModule(new JavaTimeModule());
     private static final String TOPIC = "fraud-detection-queue";
 
-    public Transaction processTransaction(Transaction transaction,String userIp){
+    public Transaction processTransaction(TransactionDTO transaction, String userIp){
+
 
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String name = authentication.getName();
         String userId = userRepository.findByUserName(name).getUserId().toString();
-        transaction.setTimestamp(LocalDateTime.now());
-        transaction.setRiskStatus("pending");
-        transaction.setUserId(userId);
-        transaction.setLocationIp(userIp);
+        Transaction newTransaction = new Transaction();
+        newTransaction.setAccountId(transaction.getAccountId());
+        newTransaction.setAmount(transaction.getAmount());
+        newTransaction.setTimestamp(LocalDateTime.now());
+        newTransaction.setRiskStatus("pending");
+        newTransaction.setUserId(userId);
+        newTransaction.setLocationIp(userIp);
 
-        Transaction savedTransaction = transactionRepository.save(transaction);
+        Transaction savedTransaction = transactionRepository.save(newTransaction);
 
         try{
             String transactionJson= objectMapper.writeValueAsString(savedTransaction);
             kafkaTemplate.send(TOPIC,transactionJson);
-            log.info("Transaction sent to Kafka: "+transaction.getId());
+            log.info("Transaction sent to Kafka: "+newTransaction.getId());
         }catch (Exception e){
             log.error("Error sending transaction to Kafka: "+e.getMessage());
             savedTransaction.setRiskStatus("FAILED_SYSTEM_ERROR");

@@ -2,8 +2,8 @@ package net.parvkhandelwal.controller;
 
 
 import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
+import net.parvkhandelwal.dto.TransactionDTO;
 import net.parvkhandelwal.entity.Transaction;
 import net.parvkhandelwal.service.TransactionService;
 import org.springframework.data.domain.Page;
@@ -15,9 +15,12 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/transactions")
 @RequiredArgsConstructor
 public class TransactionController {
+
     private final TransactionService transactionService;
+
     @PostMapping
-    public ResponseEntity<Transaction> createTransaction(@RequestBody Transaction transaction, HttpServletRequest request) {
+    public ResponseEntity<Transaction> createTransaction(@RequestBody TransactionDTO transaction, HttpServletRequest request) {
+
 
         String userIp = request.getRemoteAddr();
         try{
