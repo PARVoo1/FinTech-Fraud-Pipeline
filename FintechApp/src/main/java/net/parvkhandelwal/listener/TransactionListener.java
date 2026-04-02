@@ -8,7 +8,6 @@ import lombok.extern.slf4j.Slf4j;
 import net.parvkhandelwal.repository.TransactionRepository;
 import net.parvkhandelwal.repository.UserRepository;
 import net.parvkhandelwal.service.EmailService;
-import org.bson.types.ObjectId;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
@@ -39,8 +38,8 @@ public class TransactionListener {
                 if ("REJECTED".equalsIgnoreCase(finalStatus)) {
 
 
-                    ObjectId id = new ObjectId(transaction.getUserId());
-                    userRepository.findById(id).ifPresent(user -> {
+
+                    userRepository.findById(transaction.getUserId()).ifPresent(user -> {
                         String subject = "URGENT: Transaction Blocked";
                         String body = "Hello " + user.getUserName() + ",\n\n" +
                                 "We blocked a suspicious transaction of $" + transaction.getAmount() + ".\n" +

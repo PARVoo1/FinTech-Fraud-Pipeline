@@ -1,13 +1,15 @@
 package net.parvkhandelwal.entity;
 
+import jakarta.persistence.*;
 import lombok.Data;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+
 
 @Data
-@Document(collection = "app_cache")
+@Entity
+@Table(name="AppCache")
 public class AppCache {
     @Id
+    @GeneratedValue(strategy= GenerationType.UUID)
     private String id;
     private String apiKey;
     private String apiName;
