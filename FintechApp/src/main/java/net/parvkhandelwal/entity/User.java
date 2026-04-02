@@ -1,30 +1,31 @@
 package net.parvkhandelwal.entity;
 
-import com.mongodb.lang.NonNull;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.bson.types.ObjectId;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.index.Indexed;
-import org.springframework.data.mongodb.core.mapping.Document;
+
+
 
 import java.util.List;
 
-@Document (collection = "users")
+@Entity
+@Table(name="Users")
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class User{
     @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private ObjectId userId;
-    @Indexed(unique = true)
-    @NonNull
+    @Column(unique = true, nullable=false)
     private String userName;
+    @Column(unique = true, nullable = false)
     private String email;
-    @NonNull
+    @Column(nullable=false)
     private String userPassword;
     private List<String> roles;
 

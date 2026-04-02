@@ -1,20 +1,21 @@
 package net.parvkhandelwal.entity;
 
+import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
 
-@Document(collection = "transactions")
+@Entity
+@Table(name="Transactions")
 @Data
 @NoArgsConstructor
 public class Transaction {
 
     @Id
+    @GeneratedValue(strategy= GenerationType.UUID)
     private String id;
 
     private String userId;
