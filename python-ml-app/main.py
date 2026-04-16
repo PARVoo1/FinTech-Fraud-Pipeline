@@ -38,7 +38,7 @@ logger.info("🎧 Listening for live transactions...")
 for message in consumer:
     transaction = message.value
 
-    # We grab the MongoDB ID that Java generated!
+    # We grab the PostgreSQL ID that Java generated!
     transaction_id = transaction.get('id', 'UNKNOWN')
     account_id = transaction.get('accountId', 'UNKNOWN')
     amount = transaction.get('amount', 0.0)
